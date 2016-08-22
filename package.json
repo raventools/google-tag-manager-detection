@@ -1,0 +1,40 @@
+{
+  "name": "google-tag-manager-detection",
+  "preferGlobal": false,
+  "version": "1.0.0",
+  "author": "@raventools",
+  "description": "Google Tag Manager Detection",
+  "repository": "raventools/google-tag-manager-detection",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u tdd",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "request": "2.x.x",
+    "simhash": "0.1.x",
+    "http-status": "0.2.x",
+    "cheerio": "0.20.x",
+    "lodash": "4.5.x",
+    "sanitizer": "0.1.x",
+    "sqlite3": "3.1.x",
+    "aws-sdk": "2.2.x",
+    "q": "1.4.x",
+    "redis": "2.4.x",
+    "robots": "0.9.x",
+    "chance": "1.x.x",
+    "promise-queue": "2.2.x",
+    "node-statsd": "0.1.x"
+  },
+  "devDependencies": {
+    "chai": "3.5.x",
+    "chai-as-promised": "*",
+    "mocha": "^3.0.2",
+    "nock": "7.2.2",
+    "sinon": "1.7.x"
+  },
+  "engines": {
+    "node": ">=0.7"
+  }
+}
