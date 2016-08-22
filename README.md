@@ -1,6 +1,6 @@
 ## Google Tag Manager Detection
 
-*Problem:* Google Analytics was once easy enough to detect on a page. You would search the page contents for `ga.js` or `analytics.js` (depending on the version) and go from there. Now that [Google Tag Manager]()https://www.google.com/analytics/tag-manager/ is gaining traction, we need a new approach to determining if pages have Google Analytics properly installed.
+*Problem:* Google Analytics was once easy enough to detect on a page. You would search the page contents for `ga.js` or `analytics.js` (depending on the version) and go from there. Now that [Google Tag Manager](https://www.google.com/analytics/tag-manager/) is gaining traction, we need a new approach to determining if pages have Google Analytics properly installed.
 
 *Solution:* This package does a few things:
 
